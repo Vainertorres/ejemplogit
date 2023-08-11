@@ -56,4 +56,14 @@ Permiso al usuario, Grupo, al resto
 sudo apt-get remove nano: Desinstalar un paquete
 sudo apt-get install nano: Instalar paquetes
 
+git rm name_file: elimina archivo del repositorio y de la ubicacion física.
+git rm --cached name_file: Elimina archivo del repositorio mas no de la ubicación física
+git rm -r dir_name: Eliminar el directorio con todo lo que tenga en su interior.
+git reset codigohash: revierte lo hecho en ese commit
+git log: muestra los commits ejecutados
+
+git checkout . : revierte el ultimo commit ejecutado
+
+ejmplo chmod 774 dato
+
 
